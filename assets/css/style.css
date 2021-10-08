@@ -1,10 +1,14 @@
-.header {
+body {
+  margin: 0;
+}
+
+.content {
+  max-width: 1400px;
   margin: auto;
 }
-.header__title {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font: 25px;
-  color: rgba(170, 28, 28, 0.411);
+
+footer {
+  background-color: gray;
 }
 
 /*# sourceMappingURL=style.css.map */
