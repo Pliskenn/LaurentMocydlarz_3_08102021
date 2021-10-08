@@ -1,0 +1,10 @@
+.header {
+  margin: auto;
+}
+.header__title {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font: 25px;
+  color: rgba(173, 172, 231, 0.411);
+}
+
+/*# sourceMappingURL=style.css.map */
