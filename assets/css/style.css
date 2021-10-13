@@ -1,14 +1,9 @@
-body {
-  margin: 0;
+@font-face {
+  font-family: Shrikhand;
+  src: url("../../assets/polices/shrikhand/Shrikhand-Regular.otf");
 }
-
-.content {
-  max-width: 1400px;
-  margin: auto;
-}
-
-footer {
-  background-color: gray;
+h1 {
+  font-family: "Shrikhand";
 }
 
 /*# sourceMappingURL=style.css.map */

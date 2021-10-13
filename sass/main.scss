@@ -1,13 +1,2 @@
-body
-{
-    margin: 0;
-}
-.content
-{
-    max-width: 1400px;
-    margin: auto;
-}
-footer
-{
-  background-color:gray ;
-}
+@import "./layout/footer", "./layout/header", "./layout/index";
+@import "./base/typorgraphy";
