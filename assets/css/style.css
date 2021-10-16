@@ -5,17 +5,16 @@
 .location {
   text-align: center;
   display: flex;
-  flex-direction: row;
-  vertical-align: middle;
+  align-items: center;
 }
 
 @font-face {
   font-family: Shrikhand;
-  src: url("../../assets/polices/shrikhand/Shrikhand-Regular.otf");
+  src: url("../../fonts/shrikhand/Shrikhand-Regular.otf");
 }
 @font-face {
   font-family: Roboto;
-  src: url("../../assets/polices/roboto-slab/RobotoSlab-Regular.ttf");
+  src: url("../../fonts/roboto-slab/RobotoSlab-Regular.ttf");
 }
 h1, h3 {
   font-family: "Shrikhand";
@@ -28,6 +27,9 @@ h1, h3 {
 .restaurant__card > img {
   height: 250px;
   object-fit: cover;
+}
+.restaurant__card {
+  flex: 1 1 250px;
 }
 
 .content {
