@@ -1,0 +1,12 @@
+.reservation{
+    text-align: center;
+    &__button{
+        background-color: pink;
+        margin: auto;
+        width: 200px;
+        border-radius: 25px;
+        & > a {
+            margin: 25px;
+        }
+    }
+}

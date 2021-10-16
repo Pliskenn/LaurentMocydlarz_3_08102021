@@ -1,5 +1,13 @@
 .location {
-    text-align: center;
+    background-color: #eaeaea;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    &__bloc {
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    &__search{
+        margin-left: 10px;
+    }
 }
