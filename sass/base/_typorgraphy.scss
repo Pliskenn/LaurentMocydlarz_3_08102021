@@ -5,7 +5,15 @@
     src: url('../../assets/polices/shrikhand/Shrikhand-Regular.otf');
     
     }
+    @font-face {
 
-    h1{
+        font-family: Roboto;
+        
+        src: url('../../assets/polices/roboto-slab/RobotoSlab-Regular.ttf');
+        
+        }
+
+
+    h1, h3 {
         font-family: 'Shrikhand';
     }

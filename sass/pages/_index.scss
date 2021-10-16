@@ -1,0 +1,13 @@
+.restaurant {
+    display: flex;
+    justify-content: space-around;
+        &__card > img {
+            height: 250px;
+            object-fit: cover;
+        }
+}
+.content
+{
+    max-width: 1400px;
+    margin: auto;
+}

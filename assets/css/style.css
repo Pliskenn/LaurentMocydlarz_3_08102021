@@ -1,9 +1,38 @@
+.header {
+  text-align: center;
+}
+
+.location {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+}
+
 @font-face {
   font-family: Shrikhand;
   src: url("../../assets/polices/shrikhand/Shrikhand-Regular.otf");
 }
-h1 {
+@font-face {
+  font-family: Roboto;
+  src: url("../../assets/polices/roboto-slab/RobotoSlab-Regular.ttf");
+}
+h1, h3 {
   font-family: "Shrikhand";
+}
+
+.restaurant {
+  display: flex;
+  justify-content: space-around;
+}
+.restaurant__card > img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.content {
+  max-width: 1400px;
+  margin: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
