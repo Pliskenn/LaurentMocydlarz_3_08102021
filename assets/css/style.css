@@ -56,28 +56,6 @@ body {
   margin: auto;
 }
 
-.reservation {
-  text-align: center;
-}
-.reservation__button {
-  background-color: pink;
-  margin: auto;
-  width: 200px;
-  border-radius: 25px;
-}
-.reservation__button > a {
-  margin: 25px;
-}
-
-h1,
-h3 {
-  font-family: "Shrikhand";
-}
-
-p {
-  font-family: "Roboto";
-}
-
 .restaurant {
   display: flex;
   justify-content: space-around;
@@ -88,6 +66,32 @@ p {
 }
 .restaurant__card {
   flex: 1 1 250px;
+}
+
+.reservation {
+  text-align: center;
+}
+.reservation__button {
+  background-color: pink;
+  margin: auto;
+  width: 200px;
+  border-radius: 25px;
+}
+.reservation__button > p {
+  padding: 20px;
+}
+
+.presentation {
+  text-align: center;
+}
+
+h1,
+h3 {
+  font-family: "Shrikhand";
+}
+
+p {
+  font-family: "Roboto";
 }
 
 /*# sourceMappingURL=style.css.map */
