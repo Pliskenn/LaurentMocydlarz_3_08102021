@@ -52,20 +52,25 @@ body {
 }
 
 .content {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: auto;
 }
 
-.restaurant {
-  display: flex;
-  justify-content: space-around;
-}
 .restaurant__card > img {
   height: 250px;
+  width: 100%;
   object-fit: cover;
 }
 .restaurant__card {
-  flex: 1 1 250px;
+  flex: 1 1 500px;
+  max-width: 50%;
+  min-width: 400px;
+}
+.restaurant__container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  column-gap: 20px;
 }
 
 .reservation {
@@ -83,6 +88,13 @@ body {
 
 .presentation {
   text-align: center;
+}
+.presentation__container {
+  display: flex;
+  justify-content: space-between;
+}
+.presentation__card {
+  border: solid 1px grey;
 }
 
 h1,

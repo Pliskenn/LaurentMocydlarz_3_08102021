@@ -1,11 +1,19 @@
 .restaurant {
-    display: flex;
-    justify-content: space-around;
+
         &__card > img {
             height: 250px;
+            width: 100%;
             object-fit: cover;
         }
         &__card {
-            flex: 1 1 250px;
+            flex: 1 1 500px;
+            max-width: 50%;
+            min-width: 400px;
+        }
+        &__container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            column-gap: 20px;
         }
 }
