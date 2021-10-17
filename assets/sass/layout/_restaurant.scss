@@ -1,20 +1,21 @@
 .restaurant {
-        &__card {
-            flex: 1 1 500px;
-            max-width: 50%;
-            min-width: 400px;
-            border-radius: 0 0 25px 25px;
-            & > img {
-                height: 200px;
-                width: 100%;
-                object-fit: cover;
-                border-radius: 25px 25px 0 0;
-            }
+    background-color: #fafafa;
+    &__card {
+        flex: 1 1 500px;
+        max-width: 50%;
+        min-width: 400px;
+        border-radius: 0 0 25px 25px;
+        & > img {
+            height: 200px;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 25px 25px 0 0;
         }
-        &__container {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            column-gap: 20px;
-        }
+    }
+    &__container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        column-gap: 20px;
+    }
 }

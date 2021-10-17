@@ -56,6 +56,9 @@ body {
   margin: auto;
 }
 
+.restaurant {
+  background-color: #fafafa;
+}
 .restaurant__card {
   flex: 1 1 500px;
   max-width: 50%;
@@ -77,6 +80,7 @@ body {
 
 .reservation {
   text-align: center;
+  background-color: #fafafa;
 }
 .reservation__button {
   background-color: pink;
@@ -101,8 +105,15 @@ h3 {
   font-family: "Shrikhand";
 }
 
-p {
+p,
+h2 {
   font-family: "Roboto";
+}
+
+h2 {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
