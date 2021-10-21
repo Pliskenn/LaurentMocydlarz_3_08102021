@@ -81,20 +81,26 @@ body {
 .reservation {
   text-align: center;
   background-color: #fafafa;
+  padding-bottom: 20px;
 }
 .reservation__button {
-  background-color: pink;
-  margin: auto;
-  width: 200px;
+  background: linear-gradient(to top left, #a85ddb, #ec73da);
+  width: 250px;
+  text-align: center;
   border-radius: 25px;
+  margin: auto;
 }
 .reservation__button > p {
-  padding: 20px;
+  color: white;
+  padding: 10px 0;
 }
 
+.presentation {
+  padding-bottom: 20px;
+}
 .presentation__container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .presentation__card {
   border: solid 1px grey;
