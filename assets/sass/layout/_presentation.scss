@@ -5,6 +5,14 @@
         justify-content: space-around;
     }
     &__card {
-        border: solid 1px grey;
+        @include box-shadow;
+        @include radius;
+        width: 30%;
+        display: flex;
+        align-items: center;
+        padding-left: 15px;
+        & > p {
+            padding: 10px 20px;
+        }
     }
 }

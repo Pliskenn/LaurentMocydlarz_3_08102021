@@ -8,6 +8,12 @@
         text-align: center;
         border-radius: 25px;
         margin: auto;
+        @include box-shadow;
+        &:hover{
+            background: linear-gradient(to top left, #ae6adb, #eb7eda);
+            -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 0px 0px 0px rgba(0,0,0,0); 
+            box-shadow: 3px 7px 13px -5px #000000, 0px 0px 0px 0px rgba(0,0,0,0);
+        }
         & > p {
             color: white;
             padding: 15px 0;
