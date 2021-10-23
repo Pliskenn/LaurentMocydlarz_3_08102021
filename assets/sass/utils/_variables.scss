@@ -1,5 +1,28 @@
 h2 {
-    margin:0;
+    margin: 0;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+@media screen and (max-width: 1250px) {
+    .content {
+        padding: 0 10px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .presentation {
+        &__container {
+            flex-direction: column;
+        }
+        &__card {
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width: 950px) {
+    .restaurant {
+        &__card {
+            max-width: none;
+            width: 100%;
+        }
+    }
 }

@@ -8,6 +8,7 @@
         @include box-shadow;
         @include radius;
         width: 30%;
+        min-width: 300px;
         display: flex;
         align-items: center;
         padding-left: 15px;
