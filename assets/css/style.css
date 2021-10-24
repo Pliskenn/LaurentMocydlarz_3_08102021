@@ -8,6 +8,10 @@ h2 {
   .content {
     padding: 0 10px;
   }
+
+  .footer__bloc {
+    margin-left: 10px;
+  }
 }
 @media screen and (max-width: 1000px) {
   .presentation__container {
@@ -146,12 +150,13 @@ body {
 .presentation__container {
   display: flex;
   justify-content: space-around;
+  column-gap: 20px;
 }
 .presentation__card {
   -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 0px 0px 0px rgba(0, 0, 0, 0);
   box-shadow: 0px 5px 13px -7px #000000, 0px 0px 0px 0px rgba(0, 0, 0, 0);
   border-radius: 25px;
-  width: 30%;
+  flex: 1;
   min-width: 300px;
   display: flex;
   align-items: center;

@@ -3,11 +3,12 @@
     &__container {
         display: flex;
         justify-content: space-around;
+        column-gap: 20px;
     }
     &__card {
         @include box-shadow;
         @include radius;
-        width: 30%;
+        flex: 1;
         min-width: 300px;
         display: flex;
         align-items: center;
