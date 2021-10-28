@@ -3,7 +3,8 @@
     &__container {
         display: flex;
         justify-content: space-around;
-        column-gap: 20px;
+        column-gap: 30px;
+        margin-left: 15px;
     }
     &__card {
         @include box-shadow;
@@ -12,13 +13,22 @@
         display: flex;
         align-items: center;
         & > p {
-            padding: 10px 20px;
+            padding: 10px 10px;
         }
         & > .fas {
             padding-left: 15px;
         }
-        &-count{
-            border: solid 1px grey;
+        &-count {
+            margin-left: -15px;
+
+            & > p {
+                border: solid 1px;
+                font-size: 12px;
+                border-radius: 20px;
+                padding: 5px 9px;
+                color: white;
+                background-color: #9356dc;
+            }
         }
     }
 }

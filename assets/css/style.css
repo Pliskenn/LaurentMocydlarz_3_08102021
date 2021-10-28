@@ -150,7 +150,8 @@ body {
 .presentation__container {
   display: flex;
   justify-content: space-around;
-  column-gap: 20px;
+  column-gap: 30px;
+  margin-left: 15px;
 }
 .presentation__card {
   -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 0px 0px 0px rgba(0, 0, 0, 0);
@@ -161,13 +162,21 @@ body {
   align-items: center;
 }
 .presentation__card > p {
-  padding: 10px 20px;
+  padding: 10px 10px;
 }
 .presentation__card > .fas {
   padding-left: 15px;
 }
 .presentation__card-count {
-  border: solid 1px grey;
+  margin-left: -15px;
+}
+.presentation__card-count > p {
+  border: solid 1px;
+  font-size: 12px;
+  border-radius: 20px;
+  padding: 5px 9px;
+  color: white;
+  background-color: #9356dc;
 }
 
 h1,
