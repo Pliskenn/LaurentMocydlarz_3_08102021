@@ -9,12 +9,16 @@
         @include box-shadow;
         @include radius;
         flex: 1;
-        min-width: 300px;
         display: flex;
         align-items: center;
-        padding-left: 15px;
         & > p {
             padding: 10px 20px;
+        }
+        & > .fas {
+            padding-left: 15px;
+        }
+        &-count{
+            border: solid 1px grey;
         }
     }
 }

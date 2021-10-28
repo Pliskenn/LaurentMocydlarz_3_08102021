@@ -157,13 +157,17 @@ body {
   box-shadow: 0px 5px 13px -7px #000000, 0px 0px 0px 0px rgba(0, 0, 0, 0);
   border-radius: 25px;
   flex: 1;
-  min-width: 300px;
   display: flex;
   align-items: center;
-  padding-left: 15px;
 }
 .presentation__card > p {
   padding: 10px 20px;
+}
+.presentation__card > .fas {
+  padding-left: 15px;
+}
+.presentation__card-count {
+  border: solid 1px grey;
 }
 
 h1,
