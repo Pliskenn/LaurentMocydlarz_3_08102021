@@ -113,11 +113,19 @@ body {
   object-fit: cover;
   border-radius: 25px 25px 0 0;
 }
+.restaurant__card-icone {
+  padding-right: 15px;
+}
 .restaurant__container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   column-gap: 20px;
+}
+.restaurant__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .reservation {

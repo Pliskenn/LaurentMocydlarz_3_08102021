@@ -10,8 +10,7 @@
         margin-bottom: 20px;
         &-text {
             padding-left: 20px;
-            & > p
-            {
+            & > p {
                 margin: 0;
             }
             & > h4 {
@@ -24,11 +23,19 @@
             object-fit: cover;
             border-radius: 25px 25px 0 0;
         }
+        &-icone {
+            padding-right: 15px;
+        }
     }
     &__container {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
         column-gap: 20px;
+    }
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }
