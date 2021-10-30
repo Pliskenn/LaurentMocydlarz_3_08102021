@@ -99,7 +99,7 @@ body {
   margin-bottom: 20px;
 }
 .restaurant__card-text {
-  padding-left: 20px;
+  padding: 20px;
 }
 .restaurant__card-text > p {
   margin: 0;
@@ -114,7 +114,10 @@ body {
   border-radius: 25px 25px 0 0;
 }
 .restaurant__card-icone {
-  padding-right: 15px;
+  padding-right: 20px;
+}
+.restaurant__card-icone > .far {
+  font-size: 20px;
 }
 .restaurant__container {
   display: flex;

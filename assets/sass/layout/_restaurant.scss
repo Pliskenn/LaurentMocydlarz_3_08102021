@@ -9,7 +9,7 @@
         @include radius;
         margin-bottom: 20px;
         &-text {
-            padding-left: 20px;
+            padding: 20px;
             & > p {
                 margin: 0;
             }
@@ -24,7 +24,10 @@
             border-radius: 25px 25px 0 0;
         }
         &-icone {
-            padding-right: 15px;
+            padding-right: 20px;
+            & > .far {
+                font-size: 20px;
+            }
         }
     }
     &__container {
