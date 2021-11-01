@@ -20,6 +20,12 @@ h2 {
   .presentation__card {
     width: 100%;
   }
+
+  .footer__bloc {
+    flex-direction: column;
+    text-align: left;
+    align-items: baseline;
+  }
 }
 @media screen and (max-width: 950px) {
   .restaurant__card {
@@ -34,16 +40,24 @@ footer {
 h3.footer__title {
   color: white;
   margin: 0;
+  margin-left: 20px;
 }
 
 .footer__bloc {
   padding: 10px 0;
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
 }
 .footer__bloc > ul {
   list-style: none;
   padding: 0;
   margin: 10px 0;
   color: white;
+}
+
+.fa-utensils {
+  margin-right: 7px;
 }
 
 .header {
@@ -119,11 +133,18 @@ body {
 .restaurant__card-icone > .far {
   font-size: 20px;
 }
+.restaurant__card-icone > .far:hover {
+  color: #a85ddb;
+  background-color: cadetblue;
+}
 .restaurant__container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   column-gap: 20px;
+}
+.restaurant__container > a {
+  display: contents;
 }
 .restaurant__footer {
   display: flex;
@@ -188,6 +209,10 @@ body {
   padding: 5px 9px;
   color: white;
   background-color: #9356dc;
+}
+
+.background__cover > img {
+  object-fit: cover;
 }
 
 h1,

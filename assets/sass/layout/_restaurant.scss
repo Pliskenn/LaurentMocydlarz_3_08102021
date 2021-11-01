@@ -27,6 +27,10 @@
             padding-right: 20px;
             & > .far {
                 font-size: 20px;
+                &:hover{
+                    color: #a85ddb;
+                    background-color: cadetblue;
+                }
             }
         }
     }
@@ -35,6 +39,9 @@
         justify-content: space-around;
         flex-wrap: wrap;
         column-gap: 20px;
+        & > a {
+            display: contents;
+        }
     }
     &__footer {
         display: flex;

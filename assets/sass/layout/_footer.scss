@@ -4,13 +4,20 @@ footer {
 h3.footer__title {
     color: white;
     margin: 0;
+    margin-left: 20px;
 }
 .footer__bloc {
     padding: 10px 0;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
     & > ul {
         list-style: none;
         padding: 0;
         margin: 10px 0;
         color: white;
     }
+}
+.fa-utensils{
+    margin-right: 7px;
 }

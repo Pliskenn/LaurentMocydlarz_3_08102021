@@ -1,0 +1,5 @@
+.background__cover{
+    & > img {
+        object-fit: cover;
+    }
+}
