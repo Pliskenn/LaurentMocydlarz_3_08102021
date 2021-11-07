@@ -11,9 +11,14 @@
             padding: 20px;
             & > a p {
                 margin: 0;
+                color: black;
+                &:visited{
+                    color: black;
+                }
             }
             & > a h4 {
                 margin: 0;
+                color: black;
             }
         }
         & > a {

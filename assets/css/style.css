@@ -121,9 +121,14 @@ body {
 }
 .restaurant__card-text > a p {
   margin: 0;
+  color: black;
+}
+.restaurant__card-text > a p:visited {
+  color: black;
 }
 .restaurant__card-text > a h4 {
   margin: 0;
+  color: black;
 }
 .restaurant__card > a {
   text-decoration: none;
@@ -165,7 +170,7 @@ body {
   padding-bottom: 20px;
 }
 .reservation__button {
-  background: linear-gradient(to top left, #a85ddb, #ec73da);
+  background: linear-gradient(to top left, #9356DC, #FF79DA);
   width: 220px;
   text-align: center;
   border-radius: 25px;
@@ -215,13 +220,18 @@ body {
   border-radius: 20px;
   padding: 5px 9px;
   color: white;
-  background-color: #9356dc;
+  background-color: #9356DC;
 }
 
-.background__cover > img {
+.background__cover {
   height: 300px;
   width: 100%;
-  object-fit: cover;
+  background-image: url("../../img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+}
+
+.menu__container {
+  background-color: white;
+  border: 25px;
 }
 
 h1,
