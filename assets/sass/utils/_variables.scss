@@ -24,6 +24,9 @@ h2 {
         flex-direction: column;
         text-align: left;
         align-items: baseline;
+        & > ul {
+            flex-direction: column;
+        }
     }
 }
 @media screen and (max-width: 950px) {
