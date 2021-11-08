@@ -17,6 +17,13 @@ h3.footer__title {
         margin-top: 10px;
         & li{
             margin-right: 15px;
+            color: white;
+            & a {
+                color: white;
+                &:hover{
+                    border-bottom: 1px solid;
+                }
+            }
         }
     }
 }

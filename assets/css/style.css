@@ -59,6 +59,13 @@ h3.footer__title {
 }
 .footer__bloc > ul li {
   margin-right: 15px;
+  color: white;
+}
+.footer__bloc > ul li a {
+  color: white;
+}
+.footer__bloc > ul li a:hover {
+  border-bottom: 1px solid;
 }
 
 .fa-utensils {
