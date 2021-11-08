@@ -233,7 +233,7 @@ body {
 .background__cover {
   height: 300px;
   width: 100%;
-  background-image: url("../../img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+  background: url("../../img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
 }
 
 .menu__container {
