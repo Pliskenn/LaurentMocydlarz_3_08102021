@@ -88,6 +88,17 @@ h1 {
   margin-top: 3px;
 }
 
+.header {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.header .return > .fas {
+  font-size: 20px;
+  justify-content: flex-start;
+}
+
 .location {
   background-color: #eaeaea;
   display: flex;
@@ -230,10 +241,11 @@ body {
   background-color: #9356DC;
 }
 
-.background__cover {
+.background__cover > img {
+  object-fit: cover;
   height: 300px;
   width: 100%;
-  background: url("../../img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+  position: relative;
 }
 
 .menu__container {

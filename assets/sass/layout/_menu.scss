@@ -1,7 +1,10 @@
 .background__cover {
-    height: 300px;
-    width: 100%;
-    background: url("../../img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+    & > img {
+        object-fit: cover;
+        height: 300px;
+        width: 100%;
+        position: relative;
+    }
 }
 .menu__container {
     background-color: white;
