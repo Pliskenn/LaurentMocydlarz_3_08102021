@@ -255,6 +255,11 @@ body {
 .menu__container {
   background-color: white;
   border: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu__container h3 {
+  font-family: "Roboto";
 }
 
 .menu__header {

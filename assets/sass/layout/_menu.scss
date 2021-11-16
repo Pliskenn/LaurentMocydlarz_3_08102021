@@ -9,6 +9,11 @@
 .menu__container {
     background-color: white;
     border: 25px;
+    display: flex;
+    justify-content: space-between;
+    & h3{
+        font-family: "Roboto";
+    }
 }
 .menu__header {
     display: flex;
