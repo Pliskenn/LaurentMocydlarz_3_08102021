@@ -92,6 +92,17 @@ h1 {
   margin-top: 3px;
 }
 
+.header {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.header .return > .fas {
+  font-size: 20px;
+  justify-content: flex-start;
+}
+
 .location {
   background-color: #eaeaea;
   display: flex;
@@ -235,9 +246,10 @@ body {
 }
 
 .background__cover > img {
+  object-fit: cover;
   height: 300px;
   width: 100%;
-  object-fit: cover;
+  position: relative;
 }
 
 .menu__container {
