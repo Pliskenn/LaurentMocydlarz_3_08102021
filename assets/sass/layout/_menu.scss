@@ -1,9 +1,23 @@
 .background__cover {
-    height: 300px;
-    width: 100%;
-    background: url("../../img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+    & > img {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
 }
 .menu__container {
     background-color: white;
     border: 25px;
+}
+.menu__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -40px;
+    position: relative;
+    background-color: white;
+    border-radius: 25px 25px 0 0;
+    &-h2 {
+        font-family: "Shrikhand";
+    }
 }

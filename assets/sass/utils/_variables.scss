@@ -3,37 +3,6 @@ h2 {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-@media screen and (max-width: 1250px) {
-    .content {
-        padding: 0 10px;
-    }
-    .footer__bloc{
-        margin-left: 10px;
-    }
-}
-@media screen and (max-width: 1000px) {
-    .presentation {
-        &__container {
-            flex-direction: column;
-        }
-        &__card {
-            width: 100%;
-        }
-    }
-    .footer__bloc{
-        flex-direction: column;
-        text-align: left;
-        align-items: baseline;
-        & > ul {
-            flex-direction: column;
-        }
-    }
-}
-@media screen and (max-width: 950px) {
-    .restaurant {
-        &__card {
-            max-width: none;
-            width: 100%;
-        }
-    }
+.padding__20 {
+    padding: 0 20px;
 }
