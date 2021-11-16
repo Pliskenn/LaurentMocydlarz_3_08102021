@@ -266,7 +266,7 @@ body {
   background-color: white;
   border-radius: 25px 25px 0 0;
 }
-.menu__header-h2 {
+.menu__header > h2 {
   font-family: "Shrikhand";
 }
 
