@@ -15,6 +15,9 @@
             width: 100%;
         }
     }
+    .menu__container{
+        flex-direction: column;
+    }
     .footer__bloc{
         flex-direction: column;
         text-align: left;
