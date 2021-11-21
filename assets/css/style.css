@@ -37,6 +37,10 @@ h2 {
   .footer__bloc > ul {
     flex-direction: column;
   }
+
+  .menu__column {
+    max-width: 100%;
+  }
 }
 @media screen and (max-width: 950px) {
   .restaurant__card {
@@ -297,6 +301,7 @@ body {
 
 .menu__column {
   flex: 1 1 auto;
+  max-width: 32%;
 }
 
 .menu__card {
@@ -304,14 +309,14 @@ body {
   -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 0px 0px 0px rgba(0, 0, 0, 0);
   box-shadow: 0px 5px 13px -7px #000000, 0px 0px 0px 0px rgba(0, 0, 0, 0);
   border-radius: 15px;
-  padding: 15px 10px;
+  padding: 0;
   margin-bottom: 20px;
   display: flex;
   align-items: center;
   overflow: hidden;
 }
 .menu__card-title > h4 {
-  margin: 0;
+  margin: 10px 5px;
 }
 .menu__card-footer {
   display: flex;
@@ -319,6 +324,20 @@ body {
 }
 .menu__card-container {
   width: 100%;
+}
+.menu__card-text {
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+.menu__card:hover .menu__card-animation {
+  margin-right: 0;
+}
+.menu__card:hover .menu__card-animation > .fas {
+  transform: rotate(180deg);
+  transition-duration: 0.5s;
+}
+.menu__card:hover .menu__card-container {
+  width: 85%;
 }
 
 .menu__card-animation {

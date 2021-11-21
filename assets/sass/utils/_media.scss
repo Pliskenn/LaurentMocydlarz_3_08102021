@@ -26,6 +26,9 @@
             flex-direction: column;
         }
     }
+    .menu__column{
+        max-width: 100%;
+    }
 }
 @media screen and (max-width: 950px) {
     .restaurant {
