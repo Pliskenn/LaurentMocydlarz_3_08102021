@@ -42,8 +42,7 @@
     }
 }
 .menu__column {
-    flex: 1 1 auto;
-    max-width: 32%;
+    flex: 1 1 350px;
 }
 .menu__card {
     background-color: white;
@@ -70,13 +69,15 @@
     }
     &:hover .menu__card-animation {
         margin-right: 0;
+        transition-duration: 5s;
         & > .fas {
-            transform: rotate(180deg);
-            transition-duration: .5s;
+            transform: rotate(0deg);
+            transition-duration: 1s;
         }
     }
     &:hover .menu__card-container {
         width: 85%;
+        transition-duration: 1s;
     }
 }
 .menu__card-animation {
@@ -85,4 +86,12 @@
     margin-right: -50px;
     margin-left: 10px;
     background-color: #99e2d1;
+    height: 61px;
+    align-items: center;
+    & .fas {
+        color: white;
+        font-size: 16px;
+        margin-top: 23px;
+        transform: rotate(180deg);
+    }
 }
