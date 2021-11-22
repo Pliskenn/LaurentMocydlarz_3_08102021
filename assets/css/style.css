@@ -49,84 +49,67 @@ h2 {
   }
 }
 .anim-1 {
-  transform: scale(1);
   animation-name: bounceIn;
-  animation-delay: 0s;
-  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-duration: 4s;
+  animation: linear(to bottom);
 }
 
 .anim-2 {
-  transform: scale(1);
   animation-name: bounceIn;
-  animation-delay: 300ms;
-  animation-duration: 1s;
+  animation-duration: 4s;
+  animation-delay: 200ms;
 }
 
 .anim-3 {
-  transform: scale(1);
   animation-name: bounceIn;
-  animation-delay: 600ms;
-  animation-duration: 1s;
+  animation-duration: 4s;
+  animation-delay: 400ms;
 }
 
 .anim-4 {
-  transform: scale(1);
-  animation-name: bounceIn 1s both;
-  animation-delay: 3s;
-  animation-duration: 1s;
+  animation-name: bounceIn;
+  animation-duration: 4s;
+  animation-delay: 600ms;
 }
 
 .anim-5 {
-  transform: scale(1);
   animation-name: bounceIn;
-  animation-delay: 4s;
-  animation-duration: 1s;
+  animation-delay: 800ms;
 }
 
 .anim-6 {
-  transform: scale(1);
   animation-name: bounceIn;
-  animation-delay: 5s;
-  animation-duration: 1s;
+  animation-delay: 1000ms;
 }
 
 .anim-7 {
-  transform: scale(1);
   animation-name: bounceIn;
-  animation-delay: 6s;
-  animation-duration: 1s;
+  animation-delay: 1200ms;
 }
 
 .anim-8 {
-  transform: scale(1);
   animation-name: bounceIn;
-  animation-delay: 7s;
-  animation-duration: 1s;
+  animation-delay: 1400ms;
 }
 
 .anim-9 {
-  transform: scale(1);
   animation-name: bounceIn;
-  animation-delay: 8s;
-  animation-duration: 1s;
+  animation-delay: 1600ms;
 }
 
 @keyframes bounceIn {
   0% {
     opacity: 0;
-    transform: scale(0.3) translate3d(0, 0, 0);
   }
   50% {
     opacity: 0.9;
-    transform: scale(1.1);
   }
   80% {
     opacity: 1;
-    transform: scale(0.89);
   }
   100% {
     opacity: 1;
-    transform: scale(1) translate3d(0, 0, 0);
   }
 }
 footer {
