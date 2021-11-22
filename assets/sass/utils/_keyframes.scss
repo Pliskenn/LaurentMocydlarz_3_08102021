@@ -1,14 +1,19 @@
 @keyframes bounceIn {
     0% {
+        transform: scaleY(0);
         opacity: 0;
     }
-    50% {
-        opacity: 0.9;
+    17% {
+        transform: scaleY(.18);
+    }   
+    24% {
+        transform: scaleY(.4);
     }
-    80% {
-        opacity: 1;
+    46% {
+        transform: scaleY(.81);
     }
     100% {
+        transform: scaleY(1);
         opacity: 1;
     }
 }

@@ -50,21 +50,19 @@ h2 {
 }
 .anim-1 {
   animation-name: bounceIn;
-  animation-fill-mode: forwards;
   animation-duration: 4s;
-  animation: linear(to bottom);
 }
 
 .anim-2 {
   animation-name: bounceIn;
   animation-duration: 4s;
-  animation-delay: 200ms;
+  animation-delay: 1000ms;
 }
 
 .anim-3 {
   animation-name: bounceIn;
   animation-duration: 4s;
-  animation-delay: 400ms;
+  animation-delay: 2000ms;
 }
 
 .anim-4 {
@@ -98,17 +96,26 @@ h2 {
   animation-delay: 1600ms;
 }
 
+.menu_column {
+  opacity: 0;
+}
+
 @keyframes bounceIn {
   0% {
+    transform: scaleY(0);
     opacity: 0;
   }
-  50% {
-    opacity: 0.9;
+  17% {
+    transform: scaleY(0.18);
   }
-  80% {
-    opacity: 1;
+  24% {
+    transform: scaleY(0.4);
+  }
+  46% {
+    transform: scaleY(0.81);
   }
   100% {
+    transform: scaleY(1);
     opacity: 1;
   }
 }
@@ -421,6 +428,13 @@ body {
   font-size: 16px;
   margin-top: 23px;
   transform: rotate(180deg);
+}
+
+.menu__command {
+  background-color: #f6f6f6;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 20px;
 }
 
 .loader,
