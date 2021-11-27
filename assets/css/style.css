@@ -50,54 +50,55 @@ h2 {
 }
 .anim-1 {
   animation-name: bounceIn;
-  animation-duration: 4s;
+  animation-duration: 2s;
 }
 
 .anim-2 {
   animation-name: bounceIn;
-  animation-duration: 4s;
-  animation-delay: 1000ms;
+  animation-duration: 2s;
+  animation-delay: 200ms;
 }
 
 .anim-3 {
   animation-name: bounceIn;
-  animation-duration: 4s;
-  animation-delay: 2000ms;
+  animation-duration: 2s;
+  animation-delay: 400ms;
 }
 
 .anim-4 {
   animation-name: bounceIn;
-  animation-duration: 4s;
+  animation-duration: 2s;
   animation-delay: 600ms;
 }
 
 .anim-5 {
   animation-name: bounceIn;
+  animation-duration: 2s;
   animation-delay: 800ms;
 }
 
 .anim-6 {
   animation-name: bounceIn;
+  animation-duration: 2s;
   animation-delay: 1000ms;
 }
 
 .anim-7 {
   animation-name: bounceIn;
+  animation-duration: 2s;
   animation-delay: 1200ms;
 }
 
 .anim-8 {
   animation-name: bounceIn;
+  animation-duration: 2s;
   animation-delay: 1400ms;
 }
 
 .anim-9 {
   animation-name: bounceIn;
+  animation-duration: 2s;
   animation-delay: 1600ms;
-}
-
-.menu_column {
-  opacity: 0;
 }
 
 @keyframes bounceIn {
@@ -386,6 +387,7 @@ body {
   display: flex;
   align-items: center;
   overflow: hidden;
+  opacity: 0;
 }
 .menu__card-title > h4 {
   margin: 10px 5px;
