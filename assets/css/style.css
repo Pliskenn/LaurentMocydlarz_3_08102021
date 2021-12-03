@@ -50,62 +50,62 @@ h2 {
 }
 .anim-1 {
   animation-name: bounceIn;
-  animation-duration: 2s;
+  animation-duration: 1200ms;
   animation-fill-mode: forwards;
 }
 
 .anim-2 {
   animation-name: bounceIn;
-  animation-duration: 2s;
+  animation-duration: 1200ms;
   animation-delay: 200ms;
   animation-fill-mode: forwards;
 }
 
 .anim-3 {
   animation-name: bounceIn;
-  animation-duration: 2s;
+  animation-duration: 1200ms;
   animation-delay: 400ms;
   animation-fill-mode: forwards;
 }
 
 .anim-4 {
   animation-name: bounceIn;
-  animation-duration: 2s;
+  animation-duration: 1200ms;
   animation-delay: 600ms;
   animation-fill-mode: forwards;
 }
 
 .anim-5 {
   animation-name: bounceIn;
-  animation-duration: 2s;
+  animation-duration: 1200ms;
   animation-delay: 800ms;
   animation-fill-mode: forwards;
 }
 
 .anim-6 {
   animation-name: bounceIn;
-  animation-duration: 2s;
+  animation-duration: 1200ms;
   animation-delay: 1000ms;
   animation-fill-mode: forwards;
 }
 
 .anim-7 {
   animation-name: bounceIn;
-  animation-duration: 2s;
+  animation-duration: 1200ms;
   animation-delay: 1200ms;
   animation-fill-mode: forwards;
 }
 
 .anim-8 {
   animation-name: bounceIn;
-  animation-duration: 2s;
+  animation-duration: 1200ms;
   animation-delay: 1400ms;
   animation-fill-mode: forwards;
 }
 
 .anim-9 {
   animation-name: bounceIn;
-  animation-duration: 2s;
+  animation-duration: 1200ms;
   animation-delay: 1600ms;
   animation-fill-mode: forwards;
 }
@@ -122,6 +122,21 @@ h2 {
     animation-fill-mode: forwards;
   }
 }
+.like-icon {
+  padding-right: 20px;
+  height: 20px;
+  width: 20px;
+}
+
+.like-icon:hover .far,
+.like-icon .fas {
+  display: none;
+}
+
+.like-icon:hover .fas {
+  display: inline;
+}
+
 footer {
   background-color: #363636;
 }
@@ -174,13 +189,13 @@ h1 {
   margin-top: 3px;
 }
 
-.header {
+.header > h1 {
   display: inline-flex;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
-.header .return > .fas {
+.header > h1 .return > .fas {
   font-size: 20px;
   justify-content: flex-start;
 }
@@ -243,18 +258,6 @@ body {
   width: 100%;
   object-fit: cover;
   border-radius: 25px 25px 0 0;
-}
-.restaurant__card-icone {
-  padding-right: 20px;
-  height: 20px;
-  width: 20px;
-}
-.restaurant__card-icone > .far {
-  font-size: 20px;
-}
-.restaurant__card-icone:hover {
-  content: url(../../img/icons/heart-solid.svg);
-  color: red;
 }
 .restaurant__container {
   display: flex;

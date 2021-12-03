@@ -11,7 +11,7 @@ h1 {
 .location {
     margin-top: 3px;
 }
-.header {
+.header > h1 {
     display: inline-flex;
     justify-content: center;
     align-items: center;

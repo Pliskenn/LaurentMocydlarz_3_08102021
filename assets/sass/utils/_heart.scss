@@ -1,0 +1,12 @@
+.like-icon{
+    padding-right: 20px;
+    height: 20px;
+    width: 20px;
+}
+.like-icon:hover .far,
+.like-icon .fas {
+    display: none;
+}
+.like-icon:hover .fas{
+    display: inline;
+}

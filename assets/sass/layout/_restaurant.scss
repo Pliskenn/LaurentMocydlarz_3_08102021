@@ -12,7 +12,7 @@
             & > a p {
                 margin: 0;
                 color: black;
-                &:visited{
+                &:visited {
                     color: black;
                 }
             }
@@ -28,18 +28,6 @@
                 width: 100%;
                 object-fit: cover;
                 border-radius: 25px 25px 0 0;
-            }
-        }
-        &-icone {
-            padding-right: 20px;
-            height: 20px;
-            width: 20px;
-            & > .far {
-                font-size: 20px;
-            }
-            &:hover {
-                content: url(../../img/icons/heart-solid.svg);
-                color: red;
             }
         }
     }
