@@ -72,28 +72,28 @@
         margin-right: 0;
         transition-duration: 5s;
         & > .fas {
-            transform: rotate(0deg);
-            transition-duration: 1s;
+            transform: rotate(360deg);
+            transition-duration: 800ms;
         }
     }
     &:hover .menu__card-container {
-        width: 85%;
-        transition-duration: 1s;
+        width: 81%;
+        transition-duration: 800ms;
     }
 }
 .menu__card-animation {
-    width: 50px;
+    width: 65px;
     text-align: center;
-    margin-right: -50px;
+    margin-right: -65px;
     margin-left: 10px;
     background-color: #99e2d1;
-    height: 61px;
+    height: 65px;
     align-items: center;
     & .fas {
         color: white;
-        font-size: 16px;
+        font-size: 22px;
         margin-top: 23px;
-        transform: rotate(180deg);
+        transform: rotate(-180deg);
     }
 }
 .menu__command{
