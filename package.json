@@ -4,8 +4,10 @@
   "description": "Projet 3 OpenClassrooms",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./assets/sass/main.scss:assets/css/style.css"
+    "sass": "sass --watch ./assets/sass/main.scss:assets/css/style.css",
+    "prefix": "postcss ./assets/css/style.css --use autoprefixer -d ./assets/css/prefixed/"
   },
   "author": "Laurent Mocydlarz",
-  "license": "ISC"
+  "license": "ISC",
+  "browserslist": "last 4 versions"
 }
