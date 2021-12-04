@@ -188,15 +188,20 @@ h1 {
   margin-top: 3px;
 }
 
-.header > h1 {
+.header > h1 > h1 {
   display: inline-flex;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
-.header > h1 .return > .fas {
+
+.return {
+  float: left;
+  margin-left: 20px;
+}
+.return > .fas {
   font-size: 20px;
-  justify-content: flex-start;
+  color: black;
 }
 
 .location {
