@@ -24,7 +24,7 @@
     border: 25px;
     display: flex;
     justify-content: space-between;
-    column-gap: 20px;
+    column-gap: 30px;
     padding: 0 20px;
     & h3 {
         font-family: "Roboto";
@@ -43,6 +43,7 @@
 }
 .menu__column {
     flex: 1 1 350px;
+    min-height: 330px;
 }
 .menu__card {
     background-color: white;
@@ -63,10 +64,16 @@
     }
     &-container {
         width: 100%;
+        padding-left: 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     &-text {
         margin-left: 5px;
         margin-bottom: 5px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
     }
     &:hover .menu__card-animation {
         margin-right: 0;
@@ -77,7 +84,7 @@
         }
     }
     &:hover .menu__card-container {
-        width: 81%;
+        width: 79%;
         transition-duration: 800ms;
     }
 }
@@ -96,9 +103,9 @@
         transform: rotate(-180deg);
     }
 }
-.menu__command{
+.menu__command {
     background-color: #f6f6f6;
     margin-top: 0;
     margin-bottom: 0;
-    padding: 20px;
+    padding: 0 20px 20px 20px;
 }

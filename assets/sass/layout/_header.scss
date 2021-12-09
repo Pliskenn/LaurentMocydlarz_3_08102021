@@ -20,8 +20,16 @@ h1 {
 .return {
     float: left;
     margin-left: 20px;
+    margin-top: 35px;
+    font-size: 20px;
+    & > a 
+    {
+        color: black;
+        &:visited{
+            color: black;
+        }
+    }
     & > .fas {
-        font-size: 20px;
         color: black;
     }
 }
