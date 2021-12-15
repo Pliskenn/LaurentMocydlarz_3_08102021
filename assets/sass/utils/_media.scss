@@ -25,6 +25,9 @@
         & > ul {
             flex-direction: column;
         }
+        & li {
+            margin-bottom: 5px;
+        }
     }
     .menu__column{
         width: 100%;

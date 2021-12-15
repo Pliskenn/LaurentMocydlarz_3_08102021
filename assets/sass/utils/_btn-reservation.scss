@@ -1,0 +1,17 @@
+.reservation__button {
+        background: linear-gradient(to top left, #9356DC, #FF79DA);
+        width: 220px;
+        text-align: center;
+        border-radius: 25px;
+        margin: auto;
+        transition-duration: 400ms;
+        @include box-shadow;
+        &:hover{
+            background: linear-gradient(to top left, #ae6adb, #eb7eda);
+            box-shadow: 3px 7px 13px -5px #000000, 0px 0px 0px 0px rgba(0,0,0,0);
+        }
+        & > p {
+            color: white;
+            padding: 15px 0;
+        }
+}

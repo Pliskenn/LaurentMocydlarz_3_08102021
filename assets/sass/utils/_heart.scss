@@ -1,15 +1,18 @@
-.like-icon{
+.like-icon {
     padding-right: 20px;
     height: 20px;
     width: 20px;
+    font-size: 25px;
 }
 .like-icon:hover .far,
 .like-icon .fas {
     display: none;
 }
-.like-icon:hover .fas{
+.like-icon:hover .fas {
     display: inline;
 }
-.like-icon > .fas{
-    color: #9356DC;
+.like-icon > .fas {
+    background: linear-gradient(#9356DC, #FF79DA);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

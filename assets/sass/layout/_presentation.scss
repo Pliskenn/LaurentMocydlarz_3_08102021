@@ -1,5 +1,5 @@
 .presentation {
-    padding-bottom: 20px;
+    padding: 20px;
     &__container {
         display: flex;
         justify-content: space-around;
@@ -12,6 +12,13 @@
         flex: 1;
         display: flex;
         align-items: center;
+        margin-bottom: 20px;
+        &:hover > .fas {
+            color: #9356DC
+        }
+        &:hover{
+            background-color: #f5edff;
+        }
         & > p {
             padding: 10px 10px;
         }
