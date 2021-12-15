@@ -16,6 +16,10 @@ h2 {
   margin: 20px 20px;
 }
 
+.column__420 {
+  min-height: 420px !important;
+}
+
 @media screen and (max-width: 1250px) {
   .content {
     padding: 0 10px;
@@ -31,6 +35,9 @@ h2 {
   }
   .presentation__card {
     width: 100%;
+  }
+  .presentation__card > a img {
+    height: 150px;
   }
 
   .menu__container {
@@ -119,6 +126,13 @@ h2 {
   animation-name: bounceIn;
   animation-duration: 1200ms;
   animation-delay: 1600ms;
+  animation-fill-mode: forwards;
+}
+
+.anim-10 {
+  animation-name: bounceIn;
+  animation-duration: 1200ms;
+  animation-delay: 2000ms;
   animation-fill-mode: forwards;
 }
 
@@ -296,20 +310,26 @@ body {
   box-shadow: 0px 5px 13px -7px #000000, 0px 0px 0px 0px rgba(0, 0, 0, 0);
   border-radius: 25px;
   margin-bottom: 20px;
+  position: relative;
 }
 .restaurant__card-text {
-  padding: 10px 20px;
+  padding: 5px 10px 10px 15px;
 }
 .restaurant__card-text > a p {
   margin: 0;
   color: black;
+  font-size: 14px;
 }
 .restaurant__card-text > a p:visited {
   color: black;
 }
 .restaurant__card-text > a h4 {
-  margin: 0;
+  margin: 0 0 5px 0;
   color: black;
+}
+.restaurant__card-text h4 {
+  font-size: 17px;
+  margin-bottom: 5px;
 }
 .restaurant__card > a {
   text-decoration: none;
@@ -334,17 +354,34 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.restaurant__footer .like-icon {
+  margin-top: -12px;
+}
+
+.card__new {
+  position: absolute;
+  background-color: #98e2d1;
+  color: #1e8766;
+  border-radius: 3px;
+  top: 15px;
+  right: 15px;
+  padding: 8px 12px;
+  font-size: 15px;
+}
 
 .reservation {
   text-align: center;
   background-color: #fafafa;
-  padding: 0 20px;
+  padding: 0 20px 25px 20px;
 }
 .reservation > h2 {
   padding: 40px 0 0 0;
 }
 .reservation__text {
   margin-bottom: 30px;
+}
+.reservation > a {
+  width: 220px;
 }
 
 .presentation {
@@ -435,6 +472,7 @@ body {
 
 .menu__column {
   flex: 1;
+  min-height: 320px;
 }
 
 .menu__card {
@@ -483,10 +521,10 @@ body {
 }
 .menu__card:hover .menu__card-animation > .fas {
   transform: rotate(360deg);
-  transition-duration: 800ms;
+  transition-duration: 500ms;
 }
 .menu__card:hover .menu__card-container {
-  transition-duration: 800ms;
+  transition-duration: 500ms;
 }
 
 .menu__card-animation {

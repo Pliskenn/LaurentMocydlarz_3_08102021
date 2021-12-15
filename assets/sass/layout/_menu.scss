@@ -43,6 +43,7 @@
 }
 .menu__column {
     flex: 1;
+    min-height: 320px;
 }
 .menu__card {
     background-color: white;
@@ -87,11 +88,11 @@
         transition-duration: 5s;
         & > .fas {
             transform: rotate(360deg);
-            transition-duration: 800ms;
+            transition-duration: 500ms;
         }
     }
     &:hover .menu__card-container {
-        transition-duration: 800ms;
+        transition-duration: 500ms;
     }
 }
 .menu__card-animation {

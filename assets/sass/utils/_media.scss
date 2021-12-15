@@ -13,6 +13,9 @@
         }
         &__card {
             width: 100%;
+            & > a img {
+                height: 150px;
+            }
         }
     }
     .menu__container{

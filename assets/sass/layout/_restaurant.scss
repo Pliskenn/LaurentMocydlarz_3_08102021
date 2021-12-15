@@ -8,18 +8,24 @@
         @include box-shadow;
         @include radius;
         margin-bottom: 20px;
+        position: relative;
         &-text {
-            padding: 10px 20px;
+            padding: 5px 10px 10px 15px;
             & > a p {
                 margin: 0;
                 color: black;
+                font-size: 14px;
                 &:visited {
                     color: black;
                 }
             }
             & > a h4 {
-                margin: 0;
+                margin: 0 0 5px 0;;
                 color: black;
+            }
+            & h4{
+                font-size: 17px;
+                margin-bottom: 5px;
             }
         }
         & > a {
@@ -45,5 +51,18 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        & .like-icon {
+            margin-top: -12px;
+        }
     }
+}
+.card__new {
+    position: absolute;
+    background-color: #98e2d1;
+    color: #1e8766;
+    border-radius: 3px;
+    top: 15px;
+    right: 15px;
+    padding: 8px 12px;
+    font-size: 15px;
 }
