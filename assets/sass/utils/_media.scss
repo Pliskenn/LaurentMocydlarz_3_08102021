@@ -2,7 +2,7 @@
     .content {
         padding: 0 10px;
     }
-    .footer__bloc{
+    .footer__bloc {
         margin-left: 10px;
     }
 }
@@ -13,15 +13,12 @@
         }
         &__card {
             width: 100%;
-            & > a img {
-                height: 150px;
-            }
         }
     }
-    .menu__container{
+    .menu__container {
         flex-direction: column;
     }
-    .footer__bloc{
+    .footer__bloc {
         flex-direction: column;
         text-align: left;
         align-items: baseline;
@@ -32,9 +29,12 @@
             margin-bottom: 5px;
         }
     }
-    .menu__column{
+    .menu__column {
         width: 100%;
         max-width: 100%;
+    }
+    .restaurant__card > a img {
+        height: 150px;
     }
 }
 @media screen and (max-width: 950px) {
