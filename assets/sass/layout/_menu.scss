@@ -58,6 +58,9 @@
     &-title > h4 {
         margin: 5px;
         font-size: 17px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
     }
     &-footer {
         display: flex;
@@ -68,8 +71,8 @@
         padding-left: 5px;
         overflow: hidden;
         text-overflow: ellipsis;
-        &:hover{
-            width:calc(100% - 80px)
+        &:hover {
+            width: calc(100% - 80px);
         }
     }
     &-text {
@@ -80,8 +83,9 @@
         text-overflow: ellipsis;
         overflow: hidden;
     }
-    &-price{
+    &-price {
         font-weight: bold;
+        margin-left: 5px;
     }
     &:hover .menu__card-animation {
         margin-right: 0;

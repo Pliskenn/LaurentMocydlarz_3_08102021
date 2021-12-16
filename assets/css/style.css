@@ -29,7 +29,7 @@ h2 {
     margin-left: 10px;
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1038px) {
   .presentation__container {
     flex-direction: column;
   }
@@ -59,7 +59,7 @@ h2 {
   }
 
   .restaurant__card > a img {
-    height: 150px;
+    height: 150px !important;
   }
 }
 @media screen and (max-width: 950px) {
@@ -319,7 +319,7 @@ body {
 .restaurant__card-text > a p {
   margin: 0;
   color: black;
-  font-size: 14px;
+  font-size: 17px;
 }
 .restaurant__card-text > a p:visited {
   color: black;
@@ -491,6 +491,9 @@ body {
 .menu__card-title > h4 {
   margin: 5px;
   font-size: 17px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .menu__card-footer {
   display: flex;
@@ -515,6 +518,7 @@ body {
 }
 .menu__card-price {
   font-weight: bold;
+  margin-left: 5px;
 }
 .menu__card:hover .menu__card-animation {
   margin-right: 0;
